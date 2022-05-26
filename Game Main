@@ -1,0 +1,17 @@
+package Game;
+
+public class Main {
+    public static void main(String[] args) {
+        Player1 p1 = new Player1("Sankalp","Sword",550);
+//        System.out.println("Player Name is: "+p1.getName());
+//        System.out.println("Player "+p1.getName()+ " Initial Health is: "+p1.getHealth());
+//        System.out.println("Player "+p1.getName()+" has weapon: "+p1.getWeapon());
+
+        p1.damageByGun1();
+        p1.damageByGun1();
+        p1.damageByGun2();
+        p1.heal();
+        
+
+    }
+}
